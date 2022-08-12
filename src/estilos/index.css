@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: blueviolet; */
+  background: url(../images/fondo4.jpg);
+  background-size:cover;
+  height: 100vh;
+ }
+ 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 480px){
+  body{
+    background-size:cover;
+    background-position: center;
+  }
+}
+
+

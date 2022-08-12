@@ -1,0 +1,56 @@
+.nosotros{
+    background-color:rgb(233, 220, 210);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+.contenedor{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.contenedor h1{
+    font-size: 30px;
+    color: rgb(63, 60, 57);
+}
+
+.subcontenedor{
+    width: 600px;
+   }
+   .parrafo{
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+
+@media (max-width: 480px){
+    .contenedor{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 100px;
+        display:block;
+        }
+
+        .subcontenedor{
+            width: auto;
+            padding: 10px;
+            box-sizing: border-box;
+           }
+           .parrafo{
+            padding-left: 10px;
+            text-align: left;
+           }
+
+           .contenedor h1{
+            margin-top: 0px;
+        }
+}
